@@ -5,11 +5,13 @@ from __future__ import annotations
 import argparse
 import sys
 
+from . import __version__
 from .summarizer import key_points, summarize
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Summarise text from a file or stdin.")
+    parser.add_argument("--version", action="version", version=f"text-summarizer {__version__}")
     parser.add_argument("path", nargs="?", help="Text file to summarise (default: stdin)")
     parser.add_argument("--max-length", type=int, default=130, help="Max summary length")
     parser.add_argument("--min-length", type=int, default=30, help="Min summary length")
