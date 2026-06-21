@@ -20,7 +20,7 @@ get truncated and lose information. This project avoids that:
 
 1. **Split into sentences** and group them into chunks that fit the model's window.
 2. **Summarise each chunk** with `distilbart-cnn` (abstractive, not just extractive).
-3. **Second pass** — if several chunks were needed, the partial summaries are
+3. **Second pass** - if several chunks were needed, the partial summaries are
    summarised once more so the output reads as one coherent summary.
 
 The text-processing logic (sentence splitting, chunking, key points) is pure
