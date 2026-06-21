@@ -3,14 +3,14 @@
 ![CI](https://github.com/delcenjo/text-summarizer/actions/workflows/ci.yml/badge.svg)
 [![Live demo](https://img.shields.io/badge/Live_demo-Spaces-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/spaces/delcenjo/text-summarizer)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/delcenjo/text-summarizer/blob/main/notebooks/quickstart.ipynb)
 
 Abstractive text summariser built on a distilled BART model, with **chunking so
 it handles long documents**, not just short snippets. Available as a Python
 package, a CLI, and a live web demo.
 
-> 🚀 **Try it live:** paste any long text at the
+> **Try it live:** paste any long text at the
 > [interactive demo on Hugging Face Spaces](https://huggingface.co/spaces/delcenjo/text-summarizer).
 
 ## How it works

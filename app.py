@@ -30,7 +30,7 @@ demo = gr.Interface(
         gr.Slider(10, 80, value=30, step=5, label="Min summary length"),
     ],
     outputs=gr.Textbox(lines=6, label="Summary"),
-    title="📝 Text Summarizer",
+    title="Text Summarizer",
     description=(
         "Abstractive summarisation with distilBART. Long inputs are split into "
         "chunks and summarised, so it handles full articles, not just snippets."
